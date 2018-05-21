@@ -1,0 +1,20 @@
+cd c:/my/Practice/FirstReactReduxProject
+
+npm init
+
+npm install --save react react-dom
+
+npm install --save webpack webpack-dev-server
+
+npm install --save-dev babel-cli babel-core babel-loader babel-plugin-transform-object-rest-spread babel-preset-es2015 babel-preset-react babel-preset-stage-0 babel-register
+npm install --save-dev style-loader css-loader less-loader
+npm install --save style-loader css-loader less-loader
+npm install --save-dev less
+npm install --save less
+npm install webpack-cli -D --save
+npm install babel-preset-react --save
+npm install babel-loader babel-preset-react --save
+npm install --save-dev browser-sync-webpack-plugin
+npm install browser-sync --save-dev
+npm i webpack -g
+ npm install --save redux react-redux
