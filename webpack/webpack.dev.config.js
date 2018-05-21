@@ -3,8 +3,8 @@ var path = require('path');
 const BrowserSyncPlugin = require('browser-sync-webpack-plugin');
 
 var parentDir =  path.join(__dirname, '../');
-
 module.exports = {
+  
     entry: [
         path.join(parentDir, 'index.js')
     ],
