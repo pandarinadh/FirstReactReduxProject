@@ -16,7 +16,7 @@ module.exports = {
                 {
                   loader: 'babel-loader',
                   options: {
-                    presets: ['react']
+                    presets: ['es2015', 'react', 'stage-0']
                   }
                 }
             ]
@@ -26,10 +26,6 @@ module.exports = {
         }
     ]
     },
-    output: {
-        path: parentDir + '/dist',
-        filename: 'bundle.js'
-    },
     plugins: [
         new BrowserSyncPlugin({
           host: 'localhost',
@@ -38,6 +34,11 @@ module.exports = {
           server: { baseDir: ['dist'] }
         })
       ],
+    output: {
+        path: parentDir + 'dist',
+        filename: 'bundle.js'
+    },
+    
     watch: true,
     devServer: {
         contentBase: parentDir,

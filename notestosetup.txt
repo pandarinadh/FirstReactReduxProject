@@ -1,4 +1,5 @@
 cd c:/my/Practice/FirstReactReduxProject
+npm run dev // to start the project.
 
 npm init
 
@@ -18,3 +19,4 @@ npm install --save-dev browser-sync-webpack-plugin
 npm install browser-sync --save-dev
 npm i webpack -g
  npm install --save redux react-redux
+ npm install --save redux-thunk
